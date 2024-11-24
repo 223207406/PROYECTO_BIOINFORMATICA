@@ -80,3 +80,6 @@ def translate_to_proteins(seq):
 # Si el usuario ha ingresado ambas secuencias, analizamos
 if ecoli_sequence and salmonella_sequence:
     analyze_sequences(ecoli_sequence, salmonella_sequence)
+
+streamlit run streamlit_app.py
+
